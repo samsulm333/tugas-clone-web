@@ -1,0 +1,65 @@
+.div0{
+    display: grid;
+    grid-template-areas: "div1 div2"
+                        "div1 div3";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    padding-bottom: 0;
+
+
+}
+
+.div1{
+    grid-area: div1;
+    width: 100%;
+    height: 100%;
+}
+
+.div2{
+    grid-area: div2;
+    color: white;
+    background: rgb(219, 75, 75);
+    padding: 20px;
+}
+button{
+    background-color: black;
+}
+.div3{
+    grid-area: div3;
+}
+.divlevel2{
+    display: grid;
+    grid-template-areas: "div1 div3 div5"
+                        "div2 div4 div5" ;
+    grid-template-columns: 40% 40% 20%;
+    margin-left: 15px;
+    
+
+}
+.grid_sec_info{
+    grid-area: div1;
+    color: white;
+    background: rgb(219, 75, 75);
+    padding: 50px;
+}
+.style-grid-2-text{
+    grid-area: div2;
+    color: white;
+    background-image: url(./gambar/b4.jpg);
+    padding: 70px;
+    
+}
+.style-grid-3-text{
+    grid-area: div3;
+    color: white;
+    background-image: url(./gambar/b4.jpg);
+    padding: 70px;
+    
+}
+.grid_sec_info2{
+    grid-area: div4;
+    color: white;
+    background-color: black;
+    padding: 50px;
+    
+}
