@@ -6,7 +6,6 @@
     grid-template-rows: 50% 50%;
     padding-bottom: 0;
 
-
 }
 
 .div1{
@@ -34,7 +33,6 @@ button{
     grid-template-columns: 40% 40% 20%;
     margin-left: 15px;
     
-
 }
 .grid_sec_info{
     grid-area: div1;
